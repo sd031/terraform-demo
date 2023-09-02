@@ -1,3 +1,3 @@
-output "address" {
-  value = aws_elb.web.dns_name
+output "elb_address" {
+  value =  module.elb.elb_address
 }

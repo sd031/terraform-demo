@@ -26,3 +26,8 @@ variable "aws_amis" {
     us-west-2 = "ami-8803e0f0"
   }
 }
+
+
+variable "instance_type" {
+  default     = "t3.small"
+}
